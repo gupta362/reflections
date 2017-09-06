@@ -1,0 +1,39 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    
+Viewing a diff between two versions only brought to screen the sections of code that were changed in both versions. This helped narrow down the possible points where the bug might have been introduced in the code in the newer version.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    
+Having easy access to entire history can help in identifying patter in ineffecencies and mistakes. It can also help identify redundencies and areas of improvement.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    
+Doing manual commits gives you freedome to be more experimental and create checpoints at point of your choosing. While Git hub automatically keeps saving at each change and creates many versions which will be hard to look for potential errors when debugginh
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+ 
+GIT allows multiple files to be saved at one time and thishelps when there are mutiple files affected during a commit. SO if you want to revert back that feature or , you know each of your files thatneeds to considered while doing it.
+How can you use the commands git log and git diff to view the history of files?
+
+    
+Git log command gives history of all the commits along with the a short description(may be missing) of the changes made in that particular commmit. GIT diff can be used to find difference in code for any two commits. THis helps to track what was added, what was deleted and what remained unchanged.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    
+Version Control gives me fl
+exibility to play around with the code and experiment more knowing that I can alwyas restore to an older version in case something gets messed up.
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    
+I have a R project from a class which I need to publish online. Also needs to do the same for a predictive analytics project.
+With GIT this helps track changes which is reflected in all the files  and its easier to see that which files are affected by a changeand which are not during a commit.
